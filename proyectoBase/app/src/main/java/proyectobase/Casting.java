@@ -1,4 +1,4 @@
-package main.java.proyectobase;
+package proyectobase;
 
 public class Casting {
     //Widening (De tipo mas pequeño a mas grande)

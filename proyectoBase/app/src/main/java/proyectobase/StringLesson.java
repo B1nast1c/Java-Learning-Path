@@ -1,4 +1,4 @@
-package main.java.proyectobase;
+package proyectobase;
 
 public class StringLesson {
     public final String text = "Baguette Chocolate";

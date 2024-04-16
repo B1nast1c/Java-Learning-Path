@@ -3,7 +3,11 @@
  */
 package proyectobase;
 
-import main.java.proyectobase.Casting;
+import proyectobase.Casting;
+import proyectobase.Conditionals;
+import proyectobase.StringLesson;
+import proyectobase.MathLesson;
+import oop.MainClass;
 
 public class App {
     public String getGreeting() {
@@ -12,7 +16,11 @@ public class App {
 
     public static void main(String[] args) {
         Casting casting = new Casting();
+        StringLesson string = new StringLesson();
+        MathLesson math = new MathLesson();
+        Conditionals conditionals = new Conditionals();
 
         System.out.println(new App().getGreeting());
+        MainClass.myStaticMethod(); //Llama al metodo sin la necesidad de instanciar a algun objeto (IMPORTANTE)
     }
 }
