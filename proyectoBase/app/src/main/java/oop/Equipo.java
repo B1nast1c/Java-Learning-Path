@@ -2,7 +2,7 @@
 package oop;
 
 public enum Equipo { //Es un enum con objetos, como coleccion de objetos de una clase
-    BARÇA("FC Barcelona", 1), REAL_MADRID("Real Madrid", 2),
+    BARCA("FC Barcelona", 1), REAL_MADRID("Real Madrid", 2),
     SEVILLA("Sevilla FC", 4), VILLAREAL("Villareal", 7);
 
     private String nombreClub;

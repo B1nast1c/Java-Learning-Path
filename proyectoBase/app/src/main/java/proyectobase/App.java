@@ -3,6 +3,9 @@
  */
 package proyectobase;
 
+import other_classes.ArrayListClass;
+import other_classes.JavaIterator;
+import other_classes.Map;
 import proyectobase.Casting;
 import proyectobase.Conditionals;
 import proyectobase.StringLesson;
@@ -15,13 +18,11 @@ import oop.InnerClass;
 import oop.MainClass;
 import oop.InnerClass.InnerClass2;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import java.util.HashMap;
 
+public class App {
     public static void main(String[] args) {
-        Casting casting = new Casting();
+        /* Casting casting = new Casting();
         StringLesson string = new StringLesson();
         MathLesson math = new MathLesson();
         Conditionals conditionals = new Conditionals();
@@ -45,16 +46,29 @@ public class App {
         implementing.interfaceMethod2();
 
         // ENUMS
-        Demarcacion delantero = Demarcacion.DELANTERO;
-        System.out.println(delantero.name()); // Devuelve un String con el nombre de la constante (DELANTERO)
-        System.out.println(delantero.toString()); // Devuelve un String con el nombre de la constante (DELANTERO)
-        System.out.println(delantero.ordinal()); // Devuelve un entero con la posición del enum según está declarada
-                                                 // (3).
+        Demarcacion delattr = Demarcacion.DELANTERO;
+        System.out.println(delattr.name()); // Devuelve un String con el nombre de la constante (DELANTERO)
+        System.out.println(delattr.toString()); // Devuelve un String con el nombre de la constante (DELANTERO)
+        System.out.println(delattr.ordinal()); // Devuelve un entero con la posición del enum
         System.out.println(Demarcacion.values());
 
-        Equipo equipo = Equipo.BARÇA; // Enum con argumentos por cada valor
+        Equipo equipo = Equipo.BARCA; // Enum con argumentos por cada valor
         System.out.println(equipo.getNombreClub());
         System.out.println(equipo.getPuestoLiga());
+        */
 
+        // CONTENEDORES DE DATOS
+        ArrayListClass customArrayList = new ArrayListClass();
+        Map customMap = new Map();
+
+        //Iteracion usando un iterador personalizado
+        JavaIterator.globalIterator = customArrayList.cars.iterator(); //Cada contenedor tiene la propiedad iterator
+        System.out.println(JavaIterator.globalIterator.hasNext()); //Imprime el primer item si es que existe (VERIFICACION) + USO DE WHILE PARA ITERAR MIENTRAS EXISTA UN ELEMENTO
+
+
+    }
+
+    public String getGreeting() {
+        return "Hello World!";
     }
 }
