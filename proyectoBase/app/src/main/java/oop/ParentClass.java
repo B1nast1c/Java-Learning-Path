@@ -4,6 +4,6 @@ public class ParentClass {
     
 }
 
-class SonClass extends ParentClass { //Herencia de clases Uwu
+final class SonClass extends ParentClass { //Herencia de clases UwU / Esta clase hija no puede ser heredada
 
 }
