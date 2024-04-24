@@ -1,32 +1,38 @@
 
-€
-java:S1854>"=Remove this useless assignment to local variable "customMap".(¤Çßæ8ëª¬šï1J$e7bddfca-8c92-4963-b4fa-4035b70a63ba
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ï¸ïùÿÿÿÿ8ûª¬šï1J$28226002-55de-4c5d-8a88-a7c2e4a28399
-q
-java:S1481>".Remove this unused "customMap" local variable.(¤Çßæ8ûª¬šï1J$213090c3-6b4b-4403-ac5f-8e21f0df0c11
-r	java:S106B"+Replace this use of System.out by a logger.(ˆ¢¢˜üÿÿÿÿ8¨Ò¸šï1J$93f75f36-59ba-430e-8569-3239ebc1b14d
-œ
-java:S1128	"TRemove this unnecessary import: same package classes are always implicitly imported.(ƒˆ«£úÿÿÿÿ8›Å·šï1J$c9007831-3189-44ca-ba7f-1e8243484baa
-–
-java:S1128
-"TRemove this unnecessary import: same package classes are always implicitly imported.(–¶İ8›Å·šï1J$5f6eef1f-d42c-4044-bdd9-c82f16c3c2d5
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‘¿–ƒúÿÿÿÿ8›Å·šï1J$9e073057-14a5-45fe-b01f-4136052e41ea
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ãğ›¼üÿÿÿÿ8›Å·šï1J$ded4c2c2-29b0-403f-997f-5623b5c9ac05
-t
-java:S1128",Remove this unused import 'oop.Demarcacion'.(ÛÕıÿÿÿÿ8›Å·šï1J$8f85c8bc-9d55-4c2a-a94e-1f98216ccbb2
-o
-java:S1128"'Remove this unused import 'oop.Equipo'.(»ñ ¦ûÿÿÿÿ8›Å·šï1J$e45597cb-612d-4501-91b6-98461af83fd5
-u
-java:S1128"2Remove this unused import 'oop.ImplementingClass'.(÷¼ìí8›Å·šï1J$da02115c-621a-4458-8abe-dc3fdfa91ba0
-w
-java:S1128"/Remove this unused import 'oop.InheritedClass'.( ›êÏûÿÿÿÿ8›Å·šï1J$7b6c315a-999c-4cd8-8766-8eec73159142
-s
-java:S1128"+Remove this unused import 'oop.InnerClass'.(Øœì¢øÿÿÿÿ8›Å·šï1J$11aaedb1-dc90-40cb-b841-c12863b29751
-r
-java:S1128"*Remove this unused import 'oop.MainClass'.(äÖïªşÿÿÿÿ8›Å·šï1J$b72f00fb-5318-466c-9c18-77894e0fa0cd
-z
-java:S1128"7Remove this unused import 'oop.InnerClass.InnerClass2'.(”Óñ×8›Å·šï1J$a4888fef-5100-45b2-92ba-d83840cff073
+}
+java:S1854F":Remove this useless assignment to local variable "lambda".(ÂÀáš8£¿›µğ1J$ab800618-1e04-44ee-97f1-f6738420a092
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ï¸ïùÿÿÿÿ8£¿›µğ1J$b9bffe54-2aae-4b1b-869f-119f10dfbeef
+ƒ	java:S125>"<This block of commented-out lines of code should be removed.(ÇË”¢ùÿÿÿÿ8ãƒœµğ1J$4929b6f6-bf62-4926-bf38-f167d52a6149
+n
+java:S1481F"+Remove this unused "lambda" local variable.(ÂÀáš8³¿›µğ1J$bea4407e-494f-4928-a093-4e316e649f1d
+[
+java:S1128"9Remove this unused import 'other_classes.ArrayListClass'.(Ï·¹éÿÿÿÿÿ8ú¢ŞÜğ1
+Y
+java:S1128"7Remove this unused import 'other_classes.JavaIterator'.(³Õîÿşÿÿÿÿ8ú¢ŞÜğ1
+P
+java:S1128	".Remove this unused import 'other_classes.Map'.(ì¦¯Ñûÿÿÿÿ8û¢ŞÜğ1
 v
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8›Å·šï1J$d96f778a-f6dd-4277-bc88-0d4075310f3f
+java:S1128
+"TRemove this unnecessary import: same package classes are always implicitly imported.(ƒˆ«£úÿÿÿÿ8û¢ŞÜğ1
+p
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(–¶İ8û¢ŞÜğ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‘¿–ƒúÿÿÿÿ8ü¢ŞÜğ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ãğ›¼üÿÿÿÿ8ü¢ŞÜğ1
+N
+java:S1128",Remove this unused import 'oop.Demarcacion'.(ÛÕıÿÿÿÿ8ü¢ŞÜğ1
+I
+java:S1128"'Remove this unused import 'oop.Equipo'.(»ñ ¦ûÿÿÿÿ8ü¢ŞÜğ1
+O
+java:S1128"2Remove this unused import 'oop.ImplementingClass'.(÷¼ìí8ü¢ŞÜğ1
+Q
+java:S1128"/Remove this unused import 'oop.InheritedClass'.( ›êÏûÿÿÿÿ8ı¢ŞÜğ1
+M
+java:S1128"+Remove this unused import 'oop.InnerClass'.(Øœì¢øÿÿÿÿ8ı¢ŞÜğ1
+L
+java:S1128"*Remove this unused import 'oop.MainClass'.(äÖïªşÿÿÿÿ8ı¢ŞÜğ1
+T
+java:S1128"7Remove this unused import 'oop.InnerClass.InnerClass2'.(”Óñ×8ı¢ŞÜğ1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ı¢ŞÜğ1

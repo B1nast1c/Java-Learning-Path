@@ -3,6 +3,7 @@
  */
 package proyectobase;
 
+import functional.LambdaExpression;
 import other_classes.ArrayListClass;
 import other_classes.JavaIterator;
 import other_classes.Map;
@@ -58,14 +59,15 @@ public class App {
         */
 
         // CONTENEDORES DE DATOS
-        ArrayListClass customArrayList = new ArrayListClass();
-        Map customMap = new Map();
+        // ArrayListClass customArrayList = new ArrayListClass();
+        // Map customMap = new Map();
 
         //Iteracion usando un iterador personalizado
-        JavaIterator.globalIterator = customArrayList.cars.iterator(); //Cada contenedor tiene la propiedad iterator
-        System.out.println(JavaIterator.globalIterator.hasNext()); //Imprime el primer item si es que existe (VERIFICACION) + USO DE WHILE PARA ITERAR MIENTRAS EXISTA UN ELEMENTO
+        // JavaIterator.globalIterator = customArrayList.cars.iterator(); //Cada contenedor tiene la propiedad iterator
+        // System.out.println(JavaIterator.globalIterator.hasNext()); //Imprime el primer item si es que existe (VERIFICACION) + USO DE WHILE PARA ITERAR MIENTRAS EXISTA UN ELEMENTO
 
-
+        //Interfaces funcionales + Lambda
+        LambdaExpression lambda = new LambdaExpression();
     }
 
     public String getGreeting() {

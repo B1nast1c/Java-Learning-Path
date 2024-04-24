@@ -1,6 +1,6 @@
 package oop;
 
-public final class FinalClass { // La clase es final, pq no puede sre clase padre de otras clases
+public final class FinalClass { // La clase es final, pq no puede ser clase padre de otras clases
     private String name;
 
     // Getter
