@@ -1,9 +1,9 @@
 
 }
-java:S1118":Add a private constructor to hide the implicit public one.(˜ÙÖŒ8”èŒ¶ğ1J$565661f4-a353-4f9c-9268-52e1a15cf86a
-m	java:S106"+Replace this use of System.out by a logger.(©ëúä8”èŒ¶ğ1J$f9361a1f-df7f-47c4-9b98-fe131afd892b
-r	java:S106"+Replace this use of System.out by a logger.(à«õ¦şÿÿÿÿ8œèŒ¶ğ1J$7d63c3e2-b8e9-415c-b465-7c9d4005655d
-m	java:S106"+Replace this use of System.out by a logger.(èÛÚ8œèŒ¶ğ1J$25e02609-d948-47e9-82e0-ae34c60183e1
-r	java:S106"+Replace this use of System.out by a logger.(İ‘Åşúÿÿÿÿ8œèŒ¶ğ1J$e04c41d7-4f74-413c-b281-8e7559a8a72b
-r	java:S106"+Replace this use of System.out by a logger.(ÍÏ…úúÿÿÿÿ8œèŒ¶ğ1J$89935cbb-81ca-4bc6-a81b-a4aff493febd
-m	java:S106!"+Replace this use of System.out by a logger.(üÙ¸Ø8œèŒ¶ğ1J$4d598a3d-e0ac-48eb-ac94-a4b21ee393dd
+java:S1118":Add a private constructor to hide the implicit public one.(˜ÙÖŒ8”èŒ¶ğ1J$509d226c-467a-49f9-8c73-26578c1903a7
+m	java:S106"+Replace this use of System.out by a logger.(©ëúä8”èŒ¶ğ1J$f6e236ff-19be-4ad0-854f-68e6afa10b44
+r	java:S106"+Replace this use of System.out by a logger.(à«õ¦şÿÿÿÿ8œèŒ¶ğ1J$ed519db4-6e2c-4233-863d-ef64f74283cf
+m	java:S106"+Replace this use of System.out by a logger.(èÛÚ8œèŒ¶ğ1J$870802ea-8ae0-4e39-93b0-13fde510e450
+r	java:S106"+Replace this use of System.out by a logger.(İ‘Åşúÿÿÿÿ8œèŒ¶ğ1J$24a77ea0-3925-4829-97bc-a47c2b9f8e01
+r	java:S106"+Replace this use of System.out by a logger.(ÍÏ…úúÿÿÿÿ8œèŒ¶ğ1J$d65904eb-6269-4d58-b023-4a22a8d2ef53
+m	java:S106!"+Replace this use of System.out by a logger.(üÙ¸Ø8œèŒ¶ğ1J$18256eac-2a54-43bf-ba91-02df70ed361e

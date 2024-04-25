@@ -1,0 +1,11 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―½Έψÿÿÿÿ8ƒ€²ρ1
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό²ε8„€²ρ1
+€
+java:S1488."dImmediately return this expression instead of assigning it to the temporary variable "jsonResponse".(Πg8…€²ρ1
+q	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(θ•Ϋμ8‹€²ρ1
+p	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ψ΄―8‹€²ρ1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(μώζ8€²ρ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―½Έψÿÿÿÿ8€²ρ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(έν‚Ζωÿÿÿÿ8‘€²ρ1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό²ε8‘€²ρ1
