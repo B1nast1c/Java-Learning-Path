@@ -21,7 +21,7 @@ public class Main {
                 .build();
 
         ApiService service = retrofit.create(ApiService.class);
-        Call<ApiResponse> requestResult = service.getTodo(2);
+        Call<ApiResponse> requestResult = service.getTodo(2); //Llamado al servicio
 
         // Manejo de excepciones
         try {
