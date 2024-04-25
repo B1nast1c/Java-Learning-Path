@@ -1,6 +1,5 @@
 package com.example;
 
-import com.google.gson.Gson;
 import models.ApiResponse;
 import okhttp3.OkHttpClient;
 import retrofit.ApiService;
@@ -9,13 +8,15 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+// Retrofit nomas necesita un builder que corresponde al cliente que va a llamar, e instanciar el servicio al que va a llamar
+
 public class Main {
     public static void main(String[] args) {
         OkHttpClient.Builder builder = new OkHttpClient.Builder(); //Cliente HTTP
 
-        //Objeto que hace el llmado a la API
+        //Objeto que hace el llamado a la API
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://reqres.in/")
+                .baseUrl("https://reqres.in/") //URL
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(builder.build())
                 .build();
