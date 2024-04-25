@@ -1,8 +1,7 @@
-package com.example.springboot.controller;
+package com.example.employee.controller;
 
-import com.example.springboot.dto.EmployeeDTO;
-import com.example.springboot.service.EmployeeService;
-import com.example.springboot.service.implementation.EmployeeServiceImp;
+import com.example.employee.dto.EmployeeDTO;
+import com.example.employee.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

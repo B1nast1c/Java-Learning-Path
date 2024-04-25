@@ -1,6 +1,6 @@
-package com.example.springboot.service;
+package com.example.employee.service;
 
-import com.example.springboot.dto.EmployeeDTO;
+import com.example.employee.dto.EmployeeDTO;
 
 import java.util.List;
 

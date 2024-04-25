@@ -1,4 +1,4 @@
-package com.example.springboot.dto;
+package com.example.enterprise.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,9 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmployeeDTO { // Objeto que almacena los datos durante todos los procesos
+public class EnterpriseDTO { // Objeto que almacena los datos durante todos los procesos
     private Long id;
     private String name;
-    private String surname;
-    private String email;
 }

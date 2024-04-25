@@ -1,23 +1,19 @@
-package com.example.springboot.service.implementation;
+package com.example.employee.service.implementation;
 
-import com.example.springboot.dto.EmployeeDTO;
-import com.example.springboot.entity.Employee;
-import com.example.springboot.exceptions.NotFoundEmployee;
-import com.example.springboot.mapper.EmployeeMapper;
-import com.example.springboot.repository.EmployeeRepo;
-import com.example.springboot.service.EmployeeService;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import com.example.employee.mapper.EmployeeMapper;
+import com.example.employee.dto.EmployeeDTO;
+import com.example.employee.entity.Employee;
+import com.example.employee.exceptions.NotFoundEmployee;
+import com.example.employee.repository.EmployeeRepo;
+import com.example.employee.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.servlet.View;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
 public class EmployeeServiceImp implements EmployeeService {
-    private View error;
 
     @Autowired // El autowired ayuda a crear instancias de elementos de manera correcta y automatica en spring
     private EmployeeRepo employeeRepo; // Para acceder a los datos almacenados

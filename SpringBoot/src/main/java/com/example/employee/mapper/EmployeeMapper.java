@@ -1,7 +1,7 @@
-package com.example.springboot.mapper;
+package com.example.employee.mapper;
 
-import com.example.springboot.dto.EmployeeDTO;
-import com.example.springboot.entity.Employee;
+import com.example.employee.dto.EmployeeDTO;
+import com.example.employee.entity.Employee;
 
 
 public class EmployeeMapper { //Clase que hace el mapeo + CONVERSION DE DTO A ENTIDAD Y ENTIDAD A DTO
