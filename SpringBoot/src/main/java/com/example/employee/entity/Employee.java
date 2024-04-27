@@ -23,7 +23,10 @@ public class Employee { //Se crea la tabla y se crean las columnas de la tabla (
     @Column(name = "sur_name", nullable = false)
     private String surname;
 
-    @Column(name = "email", nullable = false)
+    @Column(name = "email")
     private String email;
+
+    @Column(name = "userid", nullable = false)
+    private Long userid;
 
 }

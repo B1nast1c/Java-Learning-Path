@@ -10,7 +10,8 @@ public class EmployeeMapper { //Clase que hace el mapeo + CONVERSION DE DTO A EN
                 employee.getId(),
                 employee.getName(),
                 employee.getSurname(),
-                employee.getEmail()
+                employee.getEmail(),
+                employee.getUserid()
         );
     }
 
@@ -19,7 +20,8 @@ public class EmployeeMapper { //Clase que hace el mapeo + CONVERSION DE DTO A EN
                 employeeDTO.getId(),
                 employeeDTO.getName(),
                 employeeDTO.getSurname(),
-                employeeDTO.getEmail()
+                employeeDTO.getEmail(),
+                employeeDTO.getUserid()
         );
     }
 }

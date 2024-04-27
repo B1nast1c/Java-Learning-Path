@@ -56,4 +56,11 @@ public class EmployeeServiceImp implements EmployeeService {
         employeeRepo.findById(id).orElseThrow(() -> new NotFoundEmployee(errorMessage + id));
         employeeRepo.deleteById(id);
     }
+
+    @Override
+    public List<EmployeeDTO> findByUserId(Long userid) {
+        List<Employee> employees = employeeRepo.findByUserid(userid);
+        return employees.stream().map(
+                EmployeeMapper::mapperDTO).collect(Collectors.toList());
+    }
 }

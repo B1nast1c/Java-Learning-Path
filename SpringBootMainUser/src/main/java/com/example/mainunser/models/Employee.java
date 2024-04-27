@@ -1,16 +1,15 @@
-package com.example.employee.dto;
+package com.example.mainunser.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmployeeDTO { // Objeto que almacena los datos durante todos los procesos
-    private Long id;
+@Getter
+@Setter
+public class Employee { //Los modelos son los que tienen el id
     private String name;
     private String surname;
     private String email;

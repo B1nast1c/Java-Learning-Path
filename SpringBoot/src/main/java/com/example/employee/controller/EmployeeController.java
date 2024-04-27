@@ -17,7 +17,7 @@ public class EmployeeController {
     private EmployeeService employeeService; // El servicio llama a la implementación (Implementation)
 
     @PostMapping
-    public ResponseEntity<EmployeeDTO> createEmployee(EmployeeDTO employeeDTO) {
+    public ResponseEntity<EmployeeDTO> createEmployee(@RequestBody EmployeeDTO employeeDTO) {
         EmployeeDTO employee = employeeService.createEmployee(employeeDTO);
         return new ResponseEntity<>(employee, HttpStatus.CREATED);
     }
@@ -44,5 +44,11 @@ public class EmployeeController {
     public ResponseEntity<EmployeeDTO> deleteEmployee(@PathVariable("id") Long id) {
         employeeService.deleteEmployee(id);
         return ResponseEntity.noContent().build(); //Objeto vacio
+    }
+
+    @GetMapping("/user/{userid}") ///Endpoint por el userID
+    public ResponseEntity<List<EmployeeDTO>> findByUserid(@PathVariable("userid") Long id) {
+        List<EmployeeDTO> employees = employeeService.findByUserId(id);
+        return ResponseEntity.ok(employees);
     }
 }
