@@ -4,7 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-//Clase oara hacer la comunicacion entre dos microservicios
+// Clase Para hacer la comunicacion entre dos microservicios
+// RESTTEMPLATE
 @Configuration
 public class RestTemplateConfig {
     @Bean // Un Bean es un objeto manejado por un orquestador, por ejemplo, un Autowired es un bean, es gestionado por la misma herramienta

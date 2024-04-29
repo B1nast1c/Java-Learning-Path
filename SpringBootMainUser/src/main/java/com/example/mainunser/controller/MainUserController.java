@@ -40,4 +40,10 @@ public class MainUserController {
         List<Employee> employees = mainUserService.getEmployeesByUser(userid); // Hace la llamada que llama al otro endpoint jsjsj
         return ResponseEntity.ok(employees);
     }
+
+    @PostMapping("/employee/{userId}") // PARA CREAR EL OBJETO EMPLOYEE CON EL ID YA PERSONALIZADO
+    public ResponseEntity<Employee> createEmployeeWithUserID(@PathVariable("userId") Long userid, @RequestBody Employee employee) {
+        Employee newEmployee = mainUserService.saveEmployee(userid, employee);
+        return ResponseEntity.ok(newEmployee);
+    }
 }

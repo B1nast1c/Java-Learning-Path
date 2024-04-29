@@ -10,6 +10,6 @@ import java.util.List;
 //Retrofit SOLAMENTE LLAMA A LA API O SERVICIO REST
 
 public interface ApiService {
-    @GET("/api/users/{id}") // Peticion a la ruta
+    @GET("/api/users/{id}") // Peticion a la ruta (SE ADJUNTA A LA RUTA BASE)
     Call<ApiResponse> getTodo(@Path("id") long id); // Resultado que se espera
 }

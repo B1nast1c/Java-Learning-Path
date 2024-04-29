@@ -2,6 +2,7 @@ package com.example.mainunser.service.implementation;
 
 import com.example.mainunser.dto.MainUserDTO;
 import com.example.mainunser.entity.MainUser;
+import com.example.mainunser.feignClient.EmployeeFeignClient;
 import com.example.mainunser.mapper.MainUserMapper;
 import com.example.mainunser.models.Employee;
 import com.example.mainunser.models.Enterprise;
@@ -21,6 +22,9 @@ public class MainUserServiceImp implements MainUserService {
 
     @Autowired
     private RestTemplate restTemplate; //Una manera de comunicacion entre servicios (Llamada a otro servicio COMUNICA)
+
+    @Autowired
+    private EmployeeFeignClient feignClient;
 
     @Override
     public MainUserDTO createUser(MainUserDTO mainUserDTO) {
@@ -62,5 +66,13 @@ public class MainUserServiceImp implements MainUserService {
     @Override
     public List<Enterprise> getEnterprisesByUser(Long id) {
         return List.of(); // Solamente implementando la de employees es necesario
+    }
+
+    @Override // Metodo de OPENFEIGN
+    public Employee saveEmployee(Long id, Employee employee) {
+        // Creacion de un nuevo objeto Employee
+        employee.setUserid(id);
+        Employee newEmployee = feignClient.save(employee);
+        return newEmployee;
     }
 }

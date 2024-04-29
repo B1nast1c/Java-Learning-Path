@@ -1,11 +1,11 @@
 
-	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―½Έψÿÿÿÿ8ƒ€²ρ1J$e8bdc811-8543-4eb8-9023-c1d46bcef194
-’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό²ε8„€²ρ1J$ee5e64d2-e350-4f84-9e4e-fcc832e93c25
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―½Έψÿÿÿÿ8ƒ€²ρ1J$3321e4c1-93e3-4037-ad60-42a3712d400e
+’	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό²ε8„€²ρ1J$4a158e9b-ed80-43ca-ba0a-6e6f4404012e
 ¦
-java:S1488."dImmediately return this expression instead of assigning it to the temporary variable "jsonResponse".(Πg8…€²ρ1J$fc28f5ee-3a30-4abe-beb6-864eabe26e93
-—	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(θ•Ϋμ8‹€²ρ1J$c0fc727e-4743-4c46-a6b8-f1127498a2f3
-–	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ψ΄―8‹€²ρ1J$d918f578-05bd-4061-81ff-7e5747c6976a
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(μώζ8€²ρ1J$3df5c8f8-8822-40f1-959f-1cda44f8d990
-•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―½Έψÿÿÿÿ8€²ρ1J$dc5e2c68-ba41-450e-92f4-5db6f03cb9ae
-•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(έν‚Ζωÿÿÿÿ8‘€²ρ1J$53a655d2-608a-4917-b4b2-9baa9bc27018
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό²ε8‘€²ρ1J$b750c86e-7d09-4de8-8de9-72f7a105d44b
+java:S1488."dImmediately return this expression instead of assigning it to the temporary variable "jsonResponse".(Πg8…€²ρ1J$93e73375-b541-40b9-82d0-338a9f48b755
+—	java:S116"URename this field "first_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(θ•Ϋμ8‹€²ρ1J$11640a18-b161-4a07-a488-4d409029edd5
+–	java:S116"TRename this field "last_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ψ΄―8‹€²ρ1J$3a468cfd-482f-4f12-990e-cbc6f49ff2f8
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(μώζ8€²ρ1J$c16aa683-c0ad-48ad-9aac-81b738f7dc66
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―½Έψÿÿÿÿ8€²ρ1J$c8b1ec68-fb51-41ae-a758-2ddc395bbb69
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(έν‚Ζωÿÿÿÿ8‘€²ρ1J$db7f976b-c5f0-46ba-b6d3-e0c8c71ba1bc
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ό²ε8‘€²ρ1J$46514f31-9b88-4588-a926-1c61dbd2466d
