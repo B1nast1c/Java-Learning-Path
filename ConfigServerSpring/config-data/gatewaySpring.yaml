@@ -3,12 +3,3 @@ server:
 spring:
   application:
     name: GatewaySpring
-  datasource:
-    password: 72163252Ulasalle.
-    url: jdbc:mysql://localhost:3306/employees
-    username: root
-  jooq:
-    sql-dialect: org.hibernate.dialect.MySQLDialect
-  jpa:
-    hibernate:
-      ddl-auto: update
