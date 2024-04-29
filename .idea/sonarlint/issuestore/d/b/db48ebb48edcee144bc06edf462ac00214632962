@@ -1,38 +1,0 @@
-
-}
-java:S1854F":Remove this useless assignment to local variable "lambda".(ÂÀáš8£¿›µğ1J$ebff0ea0-57b7-434a-9961-3e8b4b862430
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(Ï¸ïùÿÿÿÿ8£¿›µğ1J$39f5b592-3b84-45bd-9e7d-c599e91e42cf
-ƒ	java:S125>"<This block of commented-out lines of code should be removed.(ÇË”¢ùÿÿÿÿ8ãƒœµğ1J$31936df4-cc28-488d-9503-29faca2f0340
-n
-java:S1481F"+Remove this unused "lambda" local variable.(ÂÀáš8³¿›µğ1J$5e58b836-64a7-4e20-8471-238b8809736d
-
-java:S1128"9Remove this unused import 'other_classes.ArrayListClass'.(Ï·¹éÿÿÿÿÿ8ú¢ŞÜğ1J$38f1050e-f11c-421d-a372-2ea3439ddffb
-
-java:S1128"7Remove this unused import 'other_classes.JavaIterator'.(³Õîÿşÿÿÿÿ8ú¢ŞÜğ1J$08f080f1-eefd-48f8-abdc-d01fe543a26c
-v
-java:S1128	".Remove this unused import 'other_classes.Map'.(ì¦¯Ñûÿÿÿÿ8û¢ŞÜğ1J$c16f42fb-ad44-4f84-918d-a6fb3ff7419e
-œ
-java:S1128
-"TRemove this unnecessary import: same package classes are always implicitly imported.(ƒˆ«£úÿÿÿÿ8û¢ŞÜğ1J$99a2d3b3-55e8-4c90-966a-d766dde467f9
-–
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(–¶İ8û¢ŞÜğ1J$dd73c5f5-28a5-4d3d-9550-8dc3296528e8
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‘¿–ƒúÿÿÿÿ8ü¢ŞÜğ1J$9d7f03cb-0db0-4e89-a137-8b53d546eb37
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ãğ›¼üÿÿÿÿ8ü¢ŞÜğ1J$eb6643fd-2e0d-4040-950e-8810c8d4e43e
-t
-java:S1128",Remove this unused import 'oop.Demarcacion'.(ÛÕıÿÿÿÿ8ü¢ŞÜğ1J$43cd736b-92b2-4325-be37-2225180c502a
-o
-java:S1128"'Remove this unused import 'oop.Equipo'.(»ñ ¦ûÿÿÿÿ8ü¢ŞÜğ1J$a5eae398-eca1-46e9-8c9d-b0b3a5bd9b09
-u
-java:S1128"2Remove this unused import 'oop.ImplementingClass'.(÷¼ìí8ü¢ŞÜğ1J$cb4f0424-2e14-4129-95ee-684fce7dac26
-w
-java:S1128"/Remove this unused import 'oop.InheritedClass'.( ›êÏûÿÿÿÿ8ı¢ŞÜğ1J$fa35010a-1254-4fca-a4bb-2b8b686a19a0
-s
-java:S1128"+Remove this unused import 'oop.InnerClass'.(Øœì¢øÿÿÿÿ8ı¢ŞÜğ1J$0fbcc5d7-4699-43c7-a1d4-9ea3483ee68f
-r
-java:S1128"*Remove this unused import 'oop.MainClass'.(äÖïªşÿÿÿÿ8ı¢ŞÜğ1J$335eccb2-0ad9-4273-9509-4eb046ee53e0
-z
-java:S1128"7Remove this unused import 'oop.InnerClass.InnerClass2'.(”Óñ×8ı¢ŞÜğ1J$9ce87456-ddba-4067-8579-e287584160f8
-v
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ı¢ŞÜğ1J$9c1ec682-84ad-42f2-bab0-932c625b765c
