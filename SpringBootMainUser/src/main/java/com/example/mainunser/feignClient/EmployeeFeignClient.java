@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "employeeService", url = "http://localhost:8080", path = "/api/employees")
+@FeignClient(name = "EmployeeService", url = "http://localhost:8080", path = "/api/employees")
 public interface EmployeeFeignClient { // Interfaz por cada servicio al que se quiera comunicar
 
     @PostMapping // Tipo de operacion que se va a efectuar
