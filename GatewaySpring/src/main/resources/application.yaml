@@ -1,23 +1,28 @@
 spring:
-    application:
-        name: GatewaySpring
-    cloud:
-        config:
-            enabled: true
-            uri: http://localhost:8000
-        gateway:
-            routes:
-                - id: employee-route
-                  uri: http://localhost:8080
-                  predicates:
-                    - Path=/employees/**
-                  filters:
-                    - PrefixPath=/api
-                - id: users-route
-                  uri: http://localhost:8081
-                  predicates:
-                    - Path=/users/**
-                  filters:
-                    - PrefixPath=/api
+  application:
+    name: GatewaySpring
+  cloud:
     config:
-        import: 'configserver:'
+      enabled: true
+      uri: http://localhost:8000
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: employee-route
+          uri: http://localhost:8080
+          predicates:
+            - Path=/api/employees/**
+        - id: users-route
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/users/**
+  config:
+    import: 'configserver:'
+  main:
+    web-application-type: reactive
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
