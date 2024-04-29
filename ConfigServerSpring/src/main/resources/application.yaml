@@ -7,6 +7,6 @@ spring:
         git:
           default-label: master
           uri: https://github.com/B1nast1c/Java-Learning-Path
-          search-paths: config-data
+          search-paths: ConfigServerSpring/config-data
   application:
     name: ConfigServerSpring

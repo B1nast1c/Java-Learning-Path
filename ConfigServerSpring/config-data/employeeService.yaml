@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: SpringBoot
+    name: EmployeeService
   datasource:
     password: 72163252Ulasalle.
     url: jdbc:mysql://localhost:3306/employees
