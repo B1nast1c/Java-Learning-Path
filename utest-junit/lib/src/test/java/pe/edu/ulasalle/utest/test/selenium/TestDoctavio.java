@@ -46,7 +46,7 @@ class TestDoctavio {
 		driver.navigate().to(url);
 		by = By.id("k");
 		wel = driver.findElement(by);
-		wel.sendKeys("Pediatría");
+		wel.sendKeys("Pediatr?a");
 		by = By.id("ubigeo_name");
 		wel = driver.findElement(by);
 		wel.sendKeys("Miraflores");
@@ -59,7 +59,7 @@ class TestDoctavio {
 		by = By.xpath("//*[@id=\"doctor_profile\"]/div[2]/div/div/div[2]/div[1]");
 		wel = driver.findElement(by);
 		System.out.println("wel.getText(): " + wel.getText());
-		assertEquals("Dra. María Luisa Stiglich Watson", wel.getText());
+		assertEquals("Dra. Mar?a Luisa Stiglich Watson", wel.getText());
 	}
 	
 	//@Test
@@ -70,7 +70,7 @@ class TestDoctavio {
 		driver.navigate().to(url);
 		by = By.id("k");
 		wel = driver.findElement(by);
-		wel.sendKeys("Pediatría");
+		wel.sendKeys("Pediatr?a");
 		by = By.id("ubigeo_name");
 		wel = driver.findElement(by);
 		wel.sendKeys("Miraflores");
@@ -112,7 +112,7 @@ class TestDoctavio {
 		js.executeScript(script, new Object[] {"chatIframe"});
 		by = By.id("k");
 		wel = driver.findElement(by);
-		wel.sendKeys("Pediatría");
+		wel.sendKeys("Pediatr?a");
 		by = By.id("ubigeo_name");
 		wel = driver.findElement(by);
 		wel.sendKeys("Miraflores");

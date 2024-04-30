@@ -41,3 +41,7 @@ k
 Nlib/src/test/java/pe/edu/ulasalle/utest/test/wiremock/dobles/MainWiremock.java,e\c\ec2e256c66a9d41f32ee5685a9497a3c0b2a408c
 ~
 Nlib/src/test/java/pe/edu/ulasalle/utest/test/wiremock/dobles/TestWiremock.java,9\f\9f6f45c102c2e76ce86ce4a52839cc664983ca5d
+w
+Glib/src/test/java/pe/edu/ulasalle/utest/test/selenium/MainSelenium.java,0\7\07e7e22f80229cb41e863742f014476c54cff994
+w
+Glib/src/test/java/pe/edu/ulasalle/utest/test/selenium/TestDoctavio.java,1\0\10fa1a5a8e6739db619b43b711569489eeccee8d
