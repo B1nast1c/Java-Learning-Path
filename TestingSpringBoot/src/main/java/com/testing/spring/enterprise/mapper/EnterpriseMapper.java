@@ -1,7 +1,7 @@
-package com.example.enterprise.mapper;
+package com.testing.spring.enterprise.mapper;
 
-import com.example.enterprise.dto.EnterpriseDTO;
-import com.example.enterprise.entity.Enterprise;
+import com.testing.spring.enterprise.dto.EnterpriseDTO;
+import com.testing.spring.enterprise.entity.Enterprise;
 
 
 public class EnterpriseMapper { //Clase que hace el mapeo + CONVERSION DE DTO A ENTIDAD Y ENTIDAD A DTO

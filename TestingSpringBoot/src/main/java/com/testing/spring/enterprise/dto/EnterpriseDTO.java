@@ -1,12 +1,10 @@
-package com.example.enterprise.dto;
+package com.testing.spring.enterprise.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class EnterpriseDTO { // Objeto que almacena los datos durante todos los procesos

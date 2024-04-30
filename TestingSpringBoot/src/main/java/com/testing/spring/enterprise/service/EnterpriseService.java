@@ -1,6 +1,6 @@
-package com.example.enterprise.service;
+package com.testing.spring.enterprise.service;
 
-import com.example.enterprise.dto.EnterpriseDTO;
+import com.testing.spring.enterprise.dto.EnterpriseDTO;
 
 import java.util.List;
 

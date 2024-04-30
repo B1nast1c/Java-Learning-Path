@@ -1,11 +1,13 @@
-package com.example.enterprise;
+package com.testing.spring.enterprise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MainEnterprise {
+public class TestingSpringBootApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(MainEnterprise.class, args);
+        SpringApplication.run(TestingSpringBootApplication.class, args);
     }
+
 }

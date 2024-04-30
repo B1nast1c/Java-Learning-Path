@@ -1,15 +1,14 @@
-package com.example.enterprise.entity;
+package com.testing.spring.enterprise.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
+
 @Entity
 @Table(name = "enterprise")
 public class Enterprise { //Se crea la tabla y se crean las columnas de la tabla (ENTIDAD)

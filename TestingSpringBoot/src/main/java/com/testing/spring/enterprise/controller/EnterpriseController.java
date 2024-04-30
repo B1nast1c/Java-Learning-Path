@@ -1,7 +1,7 @@
-package com.example.enterprise.controller;
+package com.testing.spring.enterprise.controller;
 
-import com.example.enterprise.dto.EnterpriseDTO;
-import com.example.enterprise.service.EnterpriseService;
+import com.testing.spring.enterprise.dto.EnterpriseDTO;
+import com.testing.spring.enterprise.service.EnterpriseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

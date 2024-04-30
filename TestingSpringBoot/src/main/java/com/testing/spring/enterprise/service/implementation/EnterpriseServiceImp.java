@@ -1,11 +1,11 @@
-package com.example.enterprise.service.implementation;
+package com.testing.spring.enterprise.service.implementation;
 
-import com.example.enterprise.dto.EnterpriseDTO;
-import com.example.enterprise.entity.Enterprise;
-import com.example.enterprise.exceptions.NotFoundEnterprise;
-import com.example.enterprise.mapper.EnterpriseMapper;
-import com.example.enterprise.repository.EnterpriseRepo;
-import com.example.enterprise.service.EnterpriseService;
+import com.testing.spring.enterprise.dto.EnterpriseDTO;
+import com.testing.spring.enterprise.entity.Enterprise;
+import com.testing.spring.enterprise.exceptions.NotFoundEnterprise;
+import com.testing.spring.enterprise.mapper.EnterpriseMapper;
+import com.testing.spring.enterprise.repository.EnterpriseRepo;
+import com.testing.spring.enterprise.service.EnterpriseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
