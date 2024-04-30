@@ -1,0 +1,23 @@
+
+I
+java:S1121w".Extract the assignment out of this expression.(êˆ™Žûÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+O
+java:S1854æ"8Remove this useless assignment to local variable "cont".(›Åùì
+A	java:S106Ê"+Replace this use of System.out by a logger.(¼¼èÔ
+A	java:S106Ë"+Replace this use of System.out by a logger.(Á¨£ó
+A	java:S106Ì"+Replace this use of System.out by a logger.(¼¼èÔ
+A	java:S106Ò"+Replace this use of System.out by a logger.(«‹Îõ
+@	java:S106Õ"+Replace this use of System.out by a logger.(í©Ñ!
+A	java:S106×"+Replace this use of System.out by a logger.(°×ëÃ
+F	java:S106Ù"+Replace this use of System.out by a logger.(Î›žøûÿÿÿÿ
+A	java:S106Þ"+Replace this use of System.out by a logger.(«‹Îõ
+@
+java:S1481ä")Remove this unused "cont" local variable.(µ¢öü
+A	java:S106ç"+Replace this use of System.out by a logger.(ÈÕƒà
+A	java:S106ë"+Replace this use of System.out by a logger.(Òøó†
+R	java:S125ê"<This block of commented-out lines of code should be removed.(ù Ì¾
+F	java:S106í"+Replace this use of System.out by a logger.(¼ˆíßûÿÿÿÿ
+F	java:S106î"+Replace this use of System.out by a logger.(žùæ­ùÿÿÿÿ
+F	java:S106ï"+Replace this use of System.out by a logger.(¼ˆíßûÿÿÿÿ

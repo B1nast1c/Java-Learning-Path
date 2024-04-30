@@ -1,0 +1,6 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ˆÆÄÜ8Å„’æò1
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Šô§¯8Æ„’æò1
+i
+java:S1172"GRemove these unused method parameters "propFile", "propiedad", "value".(·©â“ûÿÿÿÿ8Ü„’æò1
+G	java:S106"+Replace this use of System.out by a logger.(ýí›ƒ8ß„’æò1

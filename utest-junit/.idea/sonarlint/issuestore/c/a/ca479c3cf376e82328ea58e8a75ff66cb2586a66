@@ -1,0 +1,11 @@
+
+†	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$5a5874d1-bbb7-4787-aa5e-114a9fddf095
+”	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( õèJ$b11d3df1-0a22-449c-9757-6549e16eb223
+h
+java:S1172",Remove this unused method parameter "texto".(Óùª²J$5e51f416-3214-4971-bc5e-898d211d78c6
+f	java:S106"+Replace this use of System.out by a logger.(êÇ¸ÂJ$701a24c2-ea84-41ae-94ff-7fa5127a2efa
+f	java:S106"+Replace this use of System.out by a logger.(øĞ×¦J$aaa5546a-73a4-460d-890c-bc466365f4cc
+k	java:S106"+Replace this use of System.out by a logger.(û‡¢ÅûÿÿÿÿJ$ef5d37ae-b8b5-41a1-84c3-ad7229c2ae36
+k	java:S106$"+Replace this use of System.out by a logger.(›ÔÊÃşÿÿÿÿJ$e5733253-de08-474e-a122-dca5cde4cbe3
+r	java:S106)"+Replace this use of System.out by a logger.(Æß’üÿÿÿÿ8œæò1J$22eb5f8f-5595-4336-b4e9-a8065ea7c9a8
